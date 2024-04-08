@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="header-container">
+            <ul class="header-info">
+                <li><a href="#about">About</a></li>
+                <li><a href="#info">Info</a></li>
+                <li><a href="#cards">Cards</a></li>
+            </ul>
+        <h1 class="header-title">Cards</h1>
+    </div>
+</header>
+
+  <input type="text" placeholder="search" id="search">
+  <input placeholder="min" type="text" id="min">
+  <input placeholder="max" type="text" id="max">
+
+  <button onclick="Filter(array)">filter</button>
+  <button onclick="Clear()">clear</button>
+  <button onclick="Search()">search</button>
+  <div id="container"></div>
+
+  <footer class="footer">
+    <div class="foooter">
+      <p class="footer">Cats</p>
+      <p class="footer">Bunnies</p>
+      <p>Here you can look at variety of pictures</p>
+    </div>
+  </footer>
+
+
+
+  <script src="./script.js"></script>
+</body>
+</html>
